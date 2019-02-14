@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+
+<view class="container">
+
+    
+    <y-like></y-like>
+    <navigator open-type="navigate" url="../form/form"  hover-class="navigator-hover">
+         <van-botton type="default"> 填form表单 </van-botton>
+    </navigator>
+    <navigator open-type="navigate" url="../login/login">
+        <van-botton > 登录 </van-botton>
+    </navigator>
+    <navigator open-type="navigate" url="../test/test">
+        <van-botton > 测试 </van-botton>
+    </navigator>
+    <navigator open-type="navigate" url="../article/article">
+        <van-botton >创建物品</van-botton>
+    </navigator>
+
+      
+
+
+</view>

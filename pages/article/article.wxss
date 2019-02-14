@@ -1,0 +1,19 @@
+/* pages/article/article.wxss */
+@import "../../icon.wxss";
+@import "../../colorui.wxss";
+
+.text-container{
+    display: flex;
+    flex-direction: row;
+    /* align-items是沿着交叉轴对齐，即所需的水平垂直效果 */
+    align-items: center; 
+    
+  
+  }
+
+.input{
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items是沿着交叉轴对齐，即所需的水平垂直效果 */
+  
+}

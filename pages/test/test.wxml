@@ -1,0 +1,19 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<view class="container">
+  <view class="line"></view>
+  <form bindsubmit="json_json">
+    <view>
+      <view >username</view>
+      <input name="username" type="text" class="input_bg"/>
+    </view>
+
+    <view>
+      <view >password</view>
+      <input name="password" type="password" class="input_bg"/>
+    </view>
+
+    <button formType="submit" class="btn">json_json</button>
+  </form>
+  <text>{{show}}</text>
+</view>

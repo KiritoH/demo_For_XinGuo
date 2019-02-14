@@ -1,0 +1,22 @@
+<!--pages/article/article.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="cu-form-group">
+    <view class='title'>物品名</view>
+    <view class='input'>
+        <input placeholder="请输入物品名" class='radius' name='name'></input>
+    </view>
+</view>
+
+<view class="cu-form-group margin-top">
+    <view class='title'>种类</view>
+    <picker name="category" bindchange="PickerChange" value="{{index}}" range="{{columns}}">
+      <view class="picker">
+        {{index?columns[index]:"请选择物品种类"}}
+      </view>
+    </picker>
+</view>
+
+<button form-type="submit">Submit</button>
+<button form-type="reset">Reset</button>
+ 
+</form>

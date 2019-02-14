@@ -1,0 +1,6 @@
+{
+    "usingComponents":{
+        "y-like":"../../components/like/index",
+        "van-botton":"../../dist/button/index"
+    }
+}
