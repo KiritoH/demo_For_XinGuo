@@ -1,4 +1,9 @@
-
+.center {
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
 
 
 /**index.wxss**/

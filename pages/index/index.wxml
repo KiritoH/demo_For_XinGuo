@@ -18,6 +18,32 @@
         <van-botton >创建物品</van-botton>
     </navigator>
 
+    <view>
+        <van-botton bind:click="listReleaseItem">显示所有发布项</van-botton>
+    </view>
+    
+    <view>
+        <van-botton bind:click="search">搜索</van-botton>
+    </view>
+    
+    <view>
+        <van-botton bind:click="print">打印</van-botton>
+    </view>
+
+
+  <van-button bind:click="togglePopup">弹出 Popup</van-button>
+  <van-popup
+    show="{{ show.middle }}"
+    custom-class="center"
+    bind:close="togglePopup"
+  >
+    <navigator open-type="navigate" url="../test/test">
+        <van-botton > 寻物启事 </van-botton>
+    </navigator>
+    <navigator open-type="navigate" url="../article/article">
+        <van-botton >失物招领</van-botton>
+    </navigator>
+  </van-popup>
       
 
 

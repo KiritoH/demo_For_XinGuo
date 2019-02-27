@@ -15,7 +15,8 @@ class HTTP{
             method:params.method,
             data:params.data,
             header:{
-                'content-type': 'application/x-www-form-urlencoded',
+                
+                'content-type': 'application/x-www-form-urlencoded;charset=utf-8',
                 //传递sessionId，用于同步
                 'Cookie': 'JSESSIONID=' + wx.getStorageSync("sessionId")
             },
