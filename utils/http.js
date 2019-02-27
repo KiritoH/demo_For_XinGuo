@@ -6,6 +6,8 @@ const tips = {
 
 class HTTP{
     request(params){
+        console.log(params);
+        
         // url, data, method,
         if(!params.method){
             params.method="GET"
@@ -16,7 +18,7 @@ class HTTP{
             data:params.data,
             header:{
                 
-                'content-type': 'application/x-www-form-urlencoded;charset=utf-8',
+                'content-type': 'application/x-www-form-urlencoded',
                 //传递sessionId，用于同步
                 'Cookie': 'JSESSIONID=' + wx.getStorageSync("sessionId")
             },

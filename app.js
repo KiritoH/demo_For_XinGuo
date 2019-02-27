@@ -38,7 +38,7 @@ App({
                       url: 'http://www.hcfyww.net/XinGuo/user/login.do',//自己的服务接口地址
                       method: 'post',
                       header: {
-                        'content-type': 'application/x-www-form-urlencoded'
+                        'content-type': 'application/x-www-form-urlencoded;charset=UTF-8'
                       },
                       data: {
                         encryptedData: res.encryptedData, iv: res.iv, code: code

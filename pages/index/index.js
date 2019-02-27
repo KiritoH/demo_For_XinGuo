@@ -46,7 +46,7 @@ Page({
     http.request({
       url:'release/search.do',
       data:{
-        keyword: "我",
+        keyword: "手机",
         pageNum: '1',
       },
       method:'get',
@@ -58,10 +58,7 @@ Page({
   print(){
     //todo 利用http.js写一个异步请求！
     http.request({
-      url:'article/print.do',
-      data:{
-        articleNo: '1550740000610',
-      },
+      url:'user/testUdpClient.do',
       method:'get',
       success:(res)=>{
         console.log(res);

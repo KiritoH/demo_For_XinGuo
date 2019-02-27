@@ -1,5 +1,6 @@
 const config = {
-    api_base_url: 'http://www.hcfyww.net/XinGuo/'
+  //http://www.hcfyww.net/XinGuo/
+  api_base_url: 'http://www.hcfyww.net/XinGuo/'
 }
 
 
